@@ -45,7 +45,7 @@ values =
         [ ( "Approachability", [ "Awk", "JavaScript" ] )
         , ( "Availability", [ "JavaScript" ] )
         , ( "Compatibility", [] )
-        , ( "Composability", [ "Rust", "Go", "Scala" ] )
+        , ( "Composability", [ "Rust", "Go", "Scala", "Haskell" ] )
         , ( "Debuggability", [] )
         , ( "Expressiveness", [ "Rust", "K", "Awk", "Haskell", "Ruby", "Scala" ] )
         , ( "Extensibility", [ "Rust", "C++", "Python" ] )
@@ -292,7 +292,7 @@ viewFooter model =
             , Element.row [ Element.alignRight ]
                 [ Element.text "Create a pull request on "
                 , Element.link [ Element.Font.color <| rgb255 34 155 220 ]
-                    { url = "github.com/jacobhaig/language-core-values"
+                    { url = "https://github.com/JacobHaig/Language-Core-Values"
                     , label = Element.text "GitHub"
                     }
                 ]
