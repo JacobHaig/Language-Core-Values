@@ -42,10 +42,10 @@ languages =
 
 values =
     GenericDict.fromList toString
-        [ ( "Approachability", [ "Awk", "JavaScript" ] )
+        [ ( "Approachability", [ "Awk", "JavaScript", "Elm" ] )
         , ( "Availability", [ "JavaScript" ] )
         , ( "Compatibility", [] )
-        , ( "Composability", [ "Rust", "Go", "Scala", "Haskell" ] )
+        , ( "Composability", [ "Rust", "Go", "Scala", "Haskell", "Elm" ] )
         , ( "Debuggability", [] )
         , ( "Expressiveness", [ "Rust", "K", "Awk", "Haskell", "Ruby", "Scala" ] )
         , ( "Extensibility", [ "Rust", "C++", "Python" ] )
@@ -55,15 +55,15 @@ values =
         , ( "Measurability", [] )
         , ( "Operability", [] )
         , ( "Performance", [ "Rust", "C", "C++", "K", "Elm", "Go", "Swift" ] )
-        , ( "Portability", [ "C", "C++", "C#", "Python" ] )
+        , ( "Portability", [ "C", "C++", "C#", "Python", "Elm", "JavaScript" ] )
         , ( "Productivity", [ "C#", "Elm", "Go", "Ruby" ] )
         , ( "Resilience", [] )
         , ( "Rigor", [ "Rust" ] )
         , ( "Robustness", [ "Rust", "C#", "Scala" ] )
-        , ( "Safety", [ "Rust", "Go" ] )
+        , ( "Safety", [ "Rust", "Go", "Elm" ] )
         , ( "Security", [ "Rust", "OpenBSD" ] )
         , ( "Simplicity", [ "C", "Awk", "Elm", "Go", "Python", "Ruby" ] )
-        , ( "Stability", [] )
+        , ( "Stability", [ "Elm" ] )
         , ( "Transparency", [] )
         , ( "Velocity", [ "Awk", "Python", "JavaScript", "Swift" ] ) -- Learnablity?
         ]
